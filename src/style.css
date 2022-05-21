@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  font-weight: bold;
+}
+
+form#degree {
+  display: inline;
+}
+
+/* button#celsius {
+  border: none;
+} */
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+label input:checked + span {
+  font-weight: bold;
+}
+
+.weather-app {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid gray;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.form-control {
+  margin: 0px;
+}
+
+.search,
+.enter-city,
+.current-city {
+  margin: 0;
+}
+
+.daily-details {
+  text-align: center;
+}
+
+.daily-details {
+  margin: 5px;
+}
+.parameter {
+  margin-top: 20px;
+}
+
+.fa-droplet {
+  padding-right: 4px;
+}
+
+.wind {
+  position: relative;
+  margin-top: 5px;
+}
+
+#degree {
+  font-size: 24px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#temperature-details {
+  font-weight: 500;
+}
+
+/* #select-city {
+  padding: 10px;
+} */
+
