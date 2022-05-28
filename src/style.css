@@ -101,3 +101,7 @@ label input:checked + span {
   padding: 10px;
 } */
 
+#github-link {
+  margin: 0 30px;
+  font-size: 10px;
+}
